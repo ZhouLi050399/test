@@ -16,6 +16,8 @@ def main():
     mark_4 = []
     mark_5 = []
     cpi = []
+    xx = []
+
     unemployment = []
     for file in path_list:
         with tf.io.gfile.GFile(file) as f:
