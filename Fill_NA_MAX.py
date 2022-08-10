@@ -24,6 +24,7 @@ def main():
                 if not line: break
                 features = line.split('|')
                 print(features)
+                print(line)
                 #mark_1.append(float(features[4].strip()))
                 #mark_2.append(float(features[5].strip()))
                 #mark_3.append(float(features[6].strip()))
